@@ -41,9 +41,9 @@ console.log(map1.keys.length);
   return (
     <>
       <h1 className='bg-green-400 text-white rounded-xl p-4'>Tailwind Test</h1>
-      <Card courseName="chaiaurcode" />
-      <Card courseName="javascript" />
-      <Card courseName="css" />
+      <Card courseName="chaiaurcode" btnText = "click me" />
+      <Card courseName="javascript" btnText = "submit" />
+      <Card courseName="css"/>
 
 
       <Fashion />
