@@ -41,8 +41,11 @@ console.log(map1.keys.length);
   return (
     <>
       <h1 className='bg-green-400 text-white rounded-xl p-4'>Tailwind Test</h1>
-      <Card jang="chaiaurcode" userObject= {myObj} someArr = {myArr} someMap = {{myMap}}
-        anotherMap = {map1} />
+      <Card courseName="chaiaurcode" />
+      <Card courseName="javascript" />
+      <Card courseName="css" />
+
+
       <Fashion />
     </>
   )
