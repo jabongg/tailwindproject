@@ -1,6 +1,6 @@
 import React from "react";
 
-function Card({courseName, btnText}) {
+function Card({courseName, btnText="visit me"}) {
     console.log("courseName", courseName);
 
     return (
@@ -18,7 +18,7 @@ function Card({courseName, btnText}) {
                     debitis?
                 </p>
                 <button class="mt-2 inline-flex cursor-pointer items-center text-sm font-semibold bg-green-400 text-white">
-                    {btnText || "visit me"} →
+                    {btnText} →
                 </button>
             </div>
         </div>
