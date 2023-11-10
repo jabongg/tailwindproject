@@ -9,8 +9,8 @@ function App() {
   const [count, setCount] = useState(0)
 
   let myObj = {
-    username : "egen",
-    password : "Friday@132"
+    username : "peapod",
+    password : "Monday@132"
   }
 
   let myArr = [1, 2, 3, 4];
